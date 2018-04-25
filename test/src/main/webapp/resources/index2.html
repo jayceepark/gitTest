@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<title>ARIA-EXPANDED Example</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-light bg-white mb-4">
+		<a class="navbar-brand" href="#">Kkk</a>
+		<button class="navbar-toggler"
+			type="button" 
+			data-toggle="collapse"
+			data-target="#navbarCollapse" 
+			aria-controls="navbarCollapse"
+			aria-expanded="false" 
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="#">Home
+						<span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Tests</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Statistics</a></li>
+				<li class="nav-item"><a class="nav-link disabled" href="#">About</a>
+				</li>
+			</ul>
+			<form class="form-inline mt-2 mt-md-0">
+				<input class="form-control mr-sm-2 form-control-sm" type="email" placeholder="E-mail"
+					aria-label="E-mail">
+				<input class="form-control mr-sm-2 form-control-sm" type="password" placeholder="Password"
+					aria-label="Password">
+				<button class="btn btn-outline-success my-2 my-sm-0 btn-sm" type="submit">Login</button>
+			</form>
+		</div>
+	</nav>
+
+	<main role="main" class="container">
+	<div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Hello, world!</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <!-- <img class="rounded-circle mb-4" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+            <img class="img-fluid mb-3 d-block mx-auto" src="img/profile.png" width="140" height="140">
+            <h3>테스트1</h3>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-success" href="#" role="button">GO! &raquo;</a></p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <!-- <img class="rounded-circle mb-4" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+            <img class="img-fluid mb-3 d-block mx-auto" src="img/profile.png" width="140" height="140">
+            <h3>테스트2</h3>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+            <p><a class="btn btn-success" href="#" role="button">GO! &raquo;</a></p>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <!-- <img class="rounded-circle mb-4" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140"> -->
+            <img class="img-fluid mb-3 d-block mx-auto" src="img/profile.png" width="140" height="140">
+            <h3>테스트3</h3>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-success" href="#" role="button">GO! &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+	</main>
+
+	<footer class="container text-muted text-center">
+      <div class="container">
+        <p>devloped by jaycee</p>
+        <p><a href="#">Ver 0.05</a></p>
+        <p><a href="#">Back to top</a></p>
+      </div>
+    </footer>
+
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>
