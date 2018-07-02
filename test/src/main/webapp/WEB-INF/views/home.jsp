@@ -12,7 +12,7 @@
 </h1>
 <h2>ddd</h2>
 
-<P>  The time on the server is ${serverTime}.......... </P>
+<P>  The time on the server is ${serverTime}........... </P>
 
 <div>
 	<button type="button" class="btn" >button1</button>
